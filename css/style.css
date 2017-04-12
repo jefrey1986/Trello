@@ -1,0 +1,40 @@
+body {
+	background: url("https://static.pexels.com/photos/316466/pexels-photo-316466.jpeg");
+	background-size: cover;
+	width: 100%;
+}
+.header {
+	display: flex;
+	justify-content: center;
+	margin: 20px;
+}
+.column-container {
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	margin-top: 40px;
+}
+button {
+	border: none;
+	padding: 5px;
+	margin: 5px;
+	border-radius: 20%;
+}
+ul {
+	list-style-type: none;
+	min-width: 150px;
+	min-height: 150px;
+	padding: 0;	
+}
+.btn-delete {
+	background: #CBB59C;
+}
+.add-card {
+	background: #ACBC90;
+}
+.column {
+	border-radius: 10%;
+	border-style: solid;
+	text-align: center;
+	padding: 20px;
+}
