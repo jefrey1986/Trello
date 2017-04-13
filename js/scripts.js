@@ -111,7 +111,12 @@ $(function(){
 	$(".create-column").click(function(){
 		var name = prompt("Wpisz nazwę kolumny");
 		var column = new Column(name);
-    	board.addColumn(column);
+
+        if (name != null) {
+        	board.addColumn(column);
+        } else {
+        	alert("Nie podałeś nazwy kolumny")
+        }
   	});
 
 
